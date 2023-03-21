@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/CSS" href="login.css">
+    <title>Login</title>
+</head>
+<body>
+<div>
+<h1>Login</h1>
+
+<form class="form" action="login.php" method="POST" enctype="multipart/form-data">
+
+<label for="email">Email: </label> <input class="afastartexto3" type="text" id="email" name="email" required>
+<br><br>
+
+<label for="senha">Senha: </label> <input class="afastartexto2" type="password" id="senha" name="senha" required> <br><br>
+
+<label>Tipo de Usuário</label>
+
+<select class="tipouser" name="tipo_de_usuario">
+    <option value="Usuario">Usuario</option>
+    <option value="Admin">Admnistrador</option>
+</select> <br><br>
+
+
+<input type="submit" value="Login"></input><br><br>
+
+
+<input type="reset" value="Limpar">
+</form>
+</div>
+</body>
+</html>

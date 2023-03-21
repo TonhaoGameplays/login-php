@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alterar</title>
+    <link rel="stylesheet" type="text/CSS" href="login.css">
+</head>
+<body>
+<div>
+    <h1>Alteração</h1>
+
+    <form class="form" action="alterar_aluno.php" method="POST" enctype="multipart/form-data">
+    
+        <label for="nomeusuario">Usuario: </label> <input class="afastartexto" type="text" id="nomeusuario"
+            name="nomeusuario" required> <br>
+    
+        <label for="email">Email: </label> <input class="afastartexto3" type="text" id="email" name="email" required>
+        <br><br>
+    
+        <label for="senha">Senha: </label> <input class="afastartexto2" type="password" id="senha" name="senha" required>
+        <br><br>
+    
+        <label for="avatar">Avatar</label> <input class="afastarfile4" type="file" id="avatar" name="avatar" required
+            accept="image/*"> <br>
+    
+        <label>Tipo de Usuário</label>
+    
+        <select class="tipouser" name="tipo_de_usuario">
+            <option value="Usuario">Usuario</option>
+            <option value="Admin">Admnistrador</option>
+        </select> <br><br>
+    
+    
+        <input type="submit" value="Alterar"></input><br><br>
+    
+    
+        <input type="reset" value="Limpar">
+</div>
+
+</body>
+</html>

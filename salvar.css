@@ -1,0 +1,27 @@
+*{
+    font-family: Arial, Helvetica, sans-serif; 
+}
+body{
+    background-color: rgba(255, 255, 255, 0.678)
+    
+}
+div{
+    position: relative;
+    text-align: center;
+    margin-right: 400px;
+    margin-left: 400px;
+    top: 300px;
+}
+.p{
+    position: relative;
+    bottom: 30px;
+}
+.botao{
+    text-decoration: none;
+    padding: 30px;
+    font-size: large;
+    background-color: white;
+}
+.botao:hover{
+    background-color: rgb(134, 133, 133)
+}
