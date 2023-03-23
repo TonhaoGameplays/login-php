@@ -13,24 +13,10 @@
 
     <form class="form" action="alterar_aluno.php" method="POST" enctype="multipart/form-data">
     
-        <label for="nomeusuario">Usuario: </label> <input class="afastartexto" type="text" id="nomeusuario"
-            name="nomeusuario" required> <br>
-    
-        <label for="email">Email: </label> <input class="afastartexto3" type="text" id="email" name="email" required>
+        <label for="email">Email Antigo: </label> <input class="afastartexto3" type="text" name="email_antigo" required>
         <br><br>
-    
-        <label for="senha">Senha: </label> <input class="afastartexto2" type="password" id="senha" name="senha" required>
+        <label for="email">Email Novo: </label> <input class="afastartexto3" type="text" name="email_novo" required>
         <br><br>
-    
-        <label for="avatar">Avatar</label> <input class="afastarfile4" type="file" id="avatar" name="avatar" required
-            accept="image/*"> <br>
-    
-        <label>Tipo de Usuário</label>
-    
-        <select class="tipouser" name="tipo_de_usuario">
-            <option value="Usuario">Usuario</option>
-            <option value="Admin">Admnistrador</option>
-        </select> <br><br>
     
     
         <input type="submit" value="Alterar"></input><br><br>

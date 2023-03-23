@@ -4,7 +4,7 @@
 
 //banco de dados: registro
 //Tabela: dados
-$conn = new mysqli('localhost', 'root', 'root', 'registro');
+$conn = new mysqli('localhost', 'root', '', 'registro');
 
 ?>
 
